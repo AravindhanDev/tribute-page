@@ -1,0 +1,155 @@
+@import url("https://fonts.googleapis.com/css2?family=Sanchez&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Sanchez", serif;
+  color: #333;
+}
+
+body {
+  padding: 0.1rem 0.5rem 2rem;
+}
+
+p {
+  color: #555;
+  text-align: center;
+}
+
+#main {
+  margin-top: 2rem;
+  background-color: #eee;
+  padding-bottom: 2.5rem;
+}
+
+#title {
+  padding: 3rem 0 2.1rem;
+  font-size: 2.5rem;
+  text-align: center;
+}
+
+#img-div {
+  margin: 1rem auto;
+  width: 97.5%;
+  background-color: #fff;
+  text-align: center;
+}
+
+#image {
+  max-width: 100%;
+  display: block;
+  height: auto;
+  margin: auto;
+}
+
+#img-caption {
+  padding: 1.5rem;
+}
+
+#info {
+  display: flex;
+  flex-direction: column;
+}
+
+#info h3 {
+  text-align: center;
+}
+
+#info ul {
+  margin: 0 auto;
+}
+
+#main .timeline {
+  padding: 2.7rem 4rem;
+}
+
+#description {
+  padding-top: 2.3rem;
+}
+
+.quotes {
+  margin: 0 auto;
+}
+
+.timeline li {
+  padding: 0.8rem 0;
+  line-height: 1.4;
+  word-spacing: 1.5;
+}
+
+ul {
+  width: 35rem;
+}
+
+.quotes {
+  margin-top: 2.4rem;
+  width: 35rem;
+}
+
+.quotes p {
+  font-style: italic;
+  text-align: left;
+  line-height: 1.6;
+  padding-bottom: 1.5rem;
+}
+
+.quotes span {
+  font-weight: normal;
+}
+
+#tribute-info {
+  margin-top: 2rem;
+  text-align: center;
+}
+
+#tribute-link {
+  color: #583d72;
+  font-weight: bold;
+}
+
+@media all and (max-width: 980px) {
+  h1,
+  h2,
+  h3,
+  h4 {
+    font-size: 1rem;
+  }
+
+  #title {
+    font-size: 2rem;
+  }
+
+  #img-div {
+    margin: 1rem auto;
+    width: 93%;
+    background-color: #fff;
+    text-align: center;
+  }
+
+  .timeline li {
+    font-size: 1rem;
+    width: 22rem;
+  }
+
+  .timeline {
+    margin-left: 0.1rem;
+  }
+
+  #main .timeline {
+    padding: 2.7rem 4rem;
+  }
+
+  #tribute-info {
+    padding: 0 1rem;
+  }
+
+  .quotes {
+    margin-top: 2.4rem;
+    width: 110%;
+  }
+
+  #img-caption {
+    font-size: 1rem;
+  }
+}
